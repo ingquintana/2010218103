@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class ComprobantePago
+    public class ComprobantePago
     {
+        private List<TipoComprobante> listadoTipoComprobante;
+
+        public ComprobantePago()
+        {
+            listadoTipoComprobante = new List<TipoComprobante>();
+        }
+
+        public List<TipoComprobante> ListadoTipoComprobante { get => listadoTipoComprobante; set => listadoTipoComprobante = value; }
     }
 }

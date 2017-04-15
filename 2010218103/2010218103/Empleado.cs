@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class Empleado
+    public class Empleado:Persona
     {
+        private int codigoEmpleado;
+
+        public Empleado(string nombre, int edad, int codigoEmpleado):base(nombre,edad)
+        {
+            this.codigoEmpleado = codigoEmpleado;
+        }
+
+        public int CodigoEmpleado { get => codigoEmpleado; set => codigoEmpleado = value; }
     }
 }

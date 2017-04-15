@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class TipoTransporte
+    public class TipoTransporte
     {
+        string tipo; //Auto, Bus, Limosina
+       
+        public string Tipo { get => tipo; set => tipo = value; }
+
+        public TipoTransporte(string tipo)
+        {
+            this.tipo = tipo;
+        }
     }
 }

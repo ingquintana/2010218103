@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class CategoriaHospedaje
+    public class CategoriaHospedaje
     {
+        string categoria; //Basico, Normal, VIP
+
+        public string Categoria { get => categoria; set => categoria = value; }
+
+        public CategoriaHospedaje(string categoria)
+        {
+            this.categoria = categoria;
+        }
     }
 }

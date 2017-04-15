@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class ServicioTuristico
+    public abstract class ServicioTuristico
     {
+        protected string lugar;
+        protected int duracion;
+
+        public string Lugar { get => lugar; set => lugar = value; }
+        public int Duracion { get => duracion; set => duracion = value; }
+
+        public ServicioTuristico(string lugar, int duracion)
+        {
+            this.lugar = lugar;
+            this.duracion = duracion;
+        }
     }
 }

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class ServicioHospedaje
+    public class ServicioHospedaje
     {
+        string servicio; //Lavanderia, Plachado, Room Service
+
+        public string Servicio { get => servicio; set => servicio = value; }
+
+        public ServicioHospedaje(string servicio)
+        {
+            this.servicio = servicio;
+        }
     }
 }

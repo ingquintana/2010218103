@@ -1,0 +1,6 @@
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\bin\Debug\2010218103.exe.config
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\bin\Debug\2010218103.exe
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\bin\Debug\2010218103.pdb
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\obj\Debug\2010218103.csprojResolveAssemblyReference.cache
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\obj\Debug\2010218103.exe
+C:\Users\ameli\OneDrive\Documentos\Visual Studio 2017\Projects\2010218103\2010218103\2010218103\obj\Debug\2010218103.pdb

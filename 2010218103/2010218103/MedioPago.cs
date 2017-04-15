@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class MedioPago
+    public class MedioPago
     {
+        string medioP; //Efectivo, Tarjeta
+
+        public string MedioP { get => medioP; set => medioP = value; }
+
+        public MedioPago(string medioP)
+        {
+            this.medioP = medioP;
+        }
     }
 }

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class CategoriaAlimentacion
+    public class CategoriaAlimentacion
     {
+        string categoria; //Basico, Normal, VIP
+
+        public string Categoria { get => categoria; set => categoria = value; }
+
+        public CategoriaAlimentacion(string categoria)
+        {
+            this.categoria = categoria;
+        }
     }
 }

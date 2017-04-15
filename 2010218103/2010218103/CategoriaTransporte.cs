@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2010218103
 {
-    class CategoriaTransporte
+    public class CategoriaTransporte
     {
+        string categoria; //Basico, Normal, VIP
+
+        public string Categoria { get => categoria; set => categoria = value; }
+
+        public CategoriaTransporte(string categoria)
+        {
+            this.categoria = categoria;
+        }
     }
 }
